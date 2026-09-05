@@ -38,9 +38,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Depth_Fade_Distance: 1
+    - _Horizon_Distance: 5
     - _QueueControl: 1
     - _QueueOffset: 0
-    m_Colors: []
+    - _Refraction_Scale: 0.05
+    - _Refraction_Speed: 0.01
+    - _Refraction_Strength: 0.005
+    m_Colors:
+    - _Deep_Color: {r: 0.043137237, g: 0.23921564, b: 0.3607843, a: 0.6}
+    - _Horizon_Color: {r: 0.490196, g: 0.9098039, b: 0.9098039, a: 1}
+    - _Shallow_Color: {r: 0.16078424, g: 0.7137255, b: 0.81960785, a: 0.2}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &6435745380530265774
