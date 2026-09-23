@@ -53,11 +53,11 @@ Material:
     - _Horizon_Distance: 5
     - _Intersection_Foam_Blend: 1
     - _Intersection_Foam_Cutoff: 0.875
-    - _Intersection_Foam_Depth: 1.34
+    - _Intersection_Foam_Depth: 2
     - _Intersection_Foam_Direction: 0.154
     - _Intersection_Foam_Fade: 1
     - _Intersection_Foam_Speed: 0.131
-    - _Intersection_Foam_Tiling: 100
+    - _Intersection_Foam_Tiling: 50
     - _QueueControl: 1
     - _QueueOffset: 0
     - _Refraction_Scale: 0.03
