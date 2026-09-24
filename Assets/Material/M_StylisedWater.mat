@@ -73,13 +73,13 @@ Material:
     - _Tiling: 0
     m_Colors:
     - _Base: {r: 0, g: 0, b: 0, a: 0}
-    - _Deep_Color: {r: 0.043137237, g: 0.23921564, b: 0.3607843, a: 0.6}
+    - _Deep_Color: {r: 0, g: 0.17858519, b: 0.28930807, a: 1}
     - _Foam_Color: {r: 0, g: 0, b: 0, a: 0}
     - _Horizon_Color: {r: 0.49019608, g: 0.9098039, b: 0.9098039, a: 1}
     - _Intersection_Foam_Color: {r: 1, g: 1, b: 1, a: 1}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Overlay: {r: 0, g: 0, b: 0, a: 0}
-    - _Shallow_Color: {r: 0.16078424, g: 0.7137255, b: 0.81960785, a: 0.2}
+    - _Shallow_Color: {r: 0.16078421, g: 0.7137255, b: 0.81960785, a: 1}
     - _Surface_Foam_Color: {r: 1, g: 1, b: 1, a: 0.011764706}
     - _Surface_Foam_Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Surface_Foam_Overlay: {r: 0, g: 0, b: 0, a: 0}
