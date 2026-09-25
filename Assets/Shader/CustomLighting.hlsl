@@ -1,8 +1,6 @@
 #ifndef CUSTOM_LIGHTING_INCLUDED
 #define CUSTOM_LIGHTING_INCLUDED
 
-#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
-
 
 // ============================================================
 // CUSTOM SPECULAR
@@ -16,9 +14,7 @@ float LightingSpecularCustom(
 )
 {
     float3 H = SafeNormalize(L + V);
-
     float NdotH = saturate(dot(N, H));
-
     return pow(NdotH, smoothness);
 }
 
@@ -35,9 +31,13 @@ void MainLighting_float(
     out float specular
 )
 {
+    // Always give Shader Graph Preview a valid output
     specular = 0.0;
 
 #ifndef SHADERGRAPH_PREVIEW
+
+    // Only include URP lighting when NOT in Shader Graph Preview
+    #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
 
     smoothness = exp2(10.0 * smoothness + 1.0);
 
@@ -73,6 +73,7 @@ void AdditionalLighting_float(
     out float3 specular
 )
 {
+    // Always give Shader Graph Preview a valid output
     specular = float3(0.0, 0.0, 0.0);
 
 #ifndef SHADERGRAPH_PREVIEW
@@ -103,6 +104,7 @@ void AdditionalLighting_float(
 #if USE_FORWARD_PLUS
 
     UNITY_LOOP
+
     for (
         uint lightIndex = 0;
         lightIndex < min(

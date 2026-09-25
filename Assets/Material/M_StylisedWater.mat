@@ -27,12 +27,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BlendedNormals_3cecb90b1c5949c4bdb1991e229d36c2_NormalsTexture_3252116567_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Intersection_Foam_Texture:
         m_Texture: {fileID: 2800000, guid: 515cec1ab088f8a41bf0efe19845e53c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normals_Texture:
-        m_Texture: {fileID: 2800000, guid: ead3be67941d84de8806e2bdbc4a2d24, type: 3}
+        m_Texture: {fileID: 2800000, guid: 80332453f0bf725469c3839be9cd6442, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Surface_Foam_Texture:
@@ -72,11 +76,11 @@ Material:
     - _Intersection_Foam_Fade: 1
     - _Intersection_Foam_Speed: 0.131
     - _Intersection_Foam_Tiling: 50
-    - _Lighting_Hardness: 0
-    - _Lighting_Smoothness: 1
-    - _Normal_Strength: 0
-    - _Normals_Scale: 0
-    - _Normals_Speed: 0
+    - _Lighting_Hardness: 0.7
+    - _Lighting_Smoothness: 0.34
+    - _Normal_Strength: 0.8
+    - _Normals_Scale: 0.15
+    - _Normals_Speed: 0.05
     - _Posterize_Steps: 0
     - _QueueControl: 1
     - _QueueOffset: 0
@@ -109,7 +113,7 @@ Material:
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Overlay: {r: 0, g: 0, b: 0, a: 0}
     - _Shallow_Color: {r: 0.32941177, g: 0.80784315, b: 0.8980392, a: 1}
-    - _Specular_Color: {r: 1, g: 1, b: 1, a: 0.3529412}
+    - _Specular_Color: {r: 0.575, g: 0.83860755, b: 1, a: 0.18431373}
     - _Surface_Foam_Color: {r: 1, g: 1, b: 1, a: 0.011764706}
     - _Surface_Foam_Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Surface_Foam_Overlay: {r: 0, g: 0, b: 0, a: 0}
