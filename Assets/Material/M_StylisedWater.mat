@@ -58,7 +58,7 @@ Material:
     - _Intersection_Foam_Fade: 1
     - _Intersection_Foam_Speed: 0.131
     - _Intersection_Foam_Tiling: 50
-    - _Posterize_Steps: 113.01
+    - _Posterize_Steps: 0
     - _QueueControl: 1
     - _QueueOffset: 0
     - _Refraction_Scale: 0.03
@@ -70,18 +70,18 @@ Material:
     - _Surface_Foam_Direction: 0.413
     - _Surface_Foam_Distortion: 0.94
     - _Surface_Foam_Speed: 0
-    - _Surface_Foam_Tiling: 30
+    - _Surface_Foam_Tiling: 20
     - _Tiling: 0
     m_Colors:
     - _Base: {r: 0, g: 0, b: 0, a: 0}
-    - _Deep_Color: {r: 0, g: 0.17858514, b: 0.28930804, a: 1}
+    - _Deep_Color: {r: 0.019607844, g: 0.3019608, b: 0.3882353, a: 1}
     - _Foam_Color: {r: 0, g: 0, b: 0, a: 0}
-    - _Horizon_Color: {r: 0.49019608, g: 0.9098039, b: 0.9098039, a: 1}
+    - _Horizon_Color: {r: 0, g: 0, b: 0, a: 1}
     - _Intersection_Foam_Color: {r: 1, g: 1, b: 1, a: 1}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Overlay: {r: 0, g: 0, b: 0, a: 0}
-    - _Shallow_Color: {r: 0.16078421, g: 0.7137255, b: 0.81960785, a: 1}
-    - _Surface_Foam_Color: {r: 1, g: 1, b: 1, a: 0.011764706}
+    - _Shallow_Color: {r: 0.32941177, g: 0.80784315, b: 0.8980392, a: 1}
+    - _Surface_Foam_Color: {r: 1, g: 1, b: 1, a: 0.019607844}
     - _Surface_Foam_Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Surface_Foam_Overlay: {r: 0, g: 0, b: 0, a: 0}
     - _Surface_Foam_UV: {r: 0, g: 0, b: 0, a: 0}
