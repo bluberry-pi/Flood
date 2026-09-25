@@ -77,6 +77,9 @@
         },
         {
             "m_Id": "e5a45b44b1b74019ac76f203fe06e814"
+        },
+        {
+            "m_Id": "92d3895a65fd4b6cb1971657f039aded"
         }
     ],
     "m_Keywords": [],
@@ -278,6 +281,9 @@
         },
         {
             "m_Id": "2f65baef126e4bb7bf8e600d0e998894"
+        },
+        {
+            "m_Id": "c8befa21b28b4039b26dc42558ee7e53"
         }
     ],
     "m_GroupDatas": [
@@ -2383,6 +2389,9 @@
         },
         {
             "m_Id": "e5a45b44b1b74019ac76f203fe06e814"
+        },
+        {
+            "m_Id": "92d3895a65fd4b6cb1971657f039aded"
         }
     ]
 }
@@ -2995,8 +3004,8 @@
     "m_ObjectId": "3734ec569ff047b5a6a646610e887747",
     "m_Title": "Refracted UV",
     "m_Position": {
-        "x": 334.0,
-        "y": 607.3333129882813
+        "x": 333.9999694824219,
+        "y": 607.3333740234375
     }
 }
 
@@ -4206,6 +4215,22 @@
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "67049ea9562144fd9a3379506f306857",
+    "m_Id": 0,
+    "m_DisplayName": "Posterize Steps",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": [],
+    "m_LiteralMode": false
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "67c03a719643447693e3115d7b46c866",
     "m_Id": 1993920117,
     "m_DisplayName": "Speed",
@@ -4225,7 +4250,7 @@
     "m_ObjectId": "6873816440fd4ba68b71a0a4fb61292a",
     "m_Title": "Intersection Foam",
     "m_Position": {
-        "x": 970.0000610351563,
+        "x": 970.0,
         "y": 1377.33349609375
     }
 }
@@ -4257,7 +4282,7 @@
     "m_ObjectId": "6a9bede3e9004a98808d2df675cc11b2",
     "m_Title": "Surface Foam",
     "m_Position": {
-        "x": 1023.333251953125,
+        "x": 1023.3331298828125,
         "y": -592.0
     }
 }
@@ -5395,6 +5420,50 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "92d3895a65fd4b6cb1971657f039aded",
+    "m_Guid": {
+        "m_GuidSerialized": "a944338f-df72-4273-a7c3-f4ebf28e72ff"
+    },
+    "promotedFromAssetID": "",
+    "promotedFromCategoryName": "",
+    "promotedOrdering": -1,
+    "m_Name": "Posterize Steps",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Posterize Steps",
+    "m_DefaultReferenceName": "_Posterize_Steps",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_PerRendererData": false,
+    "m_customAttributes": [],
+    "m_Value": 0.0,
+    "m_FloatType": 0,
+    "m_LiteralFloatMode": false,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
+    },
+    "m_SliderType": 0,
+    "m_SliderPower": 3.0,
+    "m_EnumType": 0,
+    "m_CSharpEnumString": "",
+    "m_EnumNames": [
+        "Default"
+    ],
+    "m_EnumValues": [
+        0
+    ]
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "933da88df3eb42d9afc89a43a17ceb41",
@@ -6391,7 +6460,7 @@
     "m_ObjectId": "b076a08d95134a05a6e5b2b41de7b0a9",
     "m_Title": "Depth Fade",
     "m_Position": {
-        "x": 600.6666870117188,
+        "x": 600.6666259765625,
         "y": 26.66668701171875
     }
 }
@@ -7137,6 +7206,42 @@
         "w": 0.0
     },
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "c8befa21b28b4039b26dc42558ee7e53",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 1530.0001220703125,
+            "y": 209.33335876464845,
+            "width": 158.0,
+            "height": 36.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "67049ea9562144fd9a3379506f306857"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "92d3895a65fd4b6cb1971657f039aded"
+    }
 }
 
 {
@@ -8245,7 +8350,7 @@
     "m_ObjectId": "e7076fa11eb04c21b2c749a60a7826fc",
     "m_Title": "Horizon Color",
     "m_Position": {
-        "x": 1057.333251953125,
+        "x": 1057.3331298828125,
         "y": 316.0
     }
 }
@@ -8413,7 +8518,7 @@
     "m_Title": "Underwater Color",
     "m_Position": {
         "x": 1644.6666259765625,
-        "y": 622.6666870117188
+        "y": 622.6666259765625
     }
 }
 
@@ -8713,7 +8818,7 @@
     "m_Title": "Intersection Foam Mask",
     "m_Position": {
         "x": 1311.9998779296875,
-        "y": 972.666748046875
+        "y": 972.6666870117188
     }
 }
 

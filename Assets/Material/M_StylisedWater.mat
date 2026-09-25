@@ -58,6 +58,7 @@ Material:
     - _Intersection_Foam_Fade: 1
     - _Intersection_Foam_Speed: 0.131
     - _Intersection_Foam_Tiling: 50
+    - _Posterize_Steps: 113.01
     - _QueueControl: 1
     - _QueueOffset: 0
     - _Refraction_Scale: 0.03
@@ -73,7 +74,7 @@ Material:
     - _Tiling: 0
     m_Colors:
     - _Base: {r: 0, g: 0, b: 0, a: 0}
-    - _Deep_Color: {r: 0, g: 0.17858519, b: 0.28930807, a: 1}
+    - _Deep_Color: {r: 0, g: 0.17858514, b: 0.28930804, a: 1}
     - _Foam_Color: {r: 0, g: 0, b: 0, a: 0}
     - _Horizon_Color: {r: 0.49019608, g: 0.9098039, b: 0.9098039, a: 1}
     - _Intersection_Foam_Color: {r: 1, g: 1, b: 1, a: 1}
