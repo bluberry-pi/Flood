@@ -11,21 +11,28 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: 50c1f74c54d60f944935c316bec9dedc, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3000
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: Transparent
   disabledShaderPasses:
   - MOTIONVECTORS
+  - DepthOnly
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _Intersection_Foam_Texture:
         m_Texture: {fileID: 2800000, guid: 515cec1ab088f8a41bf0efe19845e53c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normals_Texture:
+        m_Texture: {fileID: 2800000, guid: ead3be67941d84de8806e2bdbc4a2d24, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Surface_Foam_Texture:
@@ -46,9 +53,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
     - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _CastShadows: 1
+    - _Cull: 2
     - _Depth_Fade_Distance: 1
     - _Direction: 0
+    - _DstBlend: 10
+    - _DstBlendAlpha: 10
     - _Foam_Blend: 0
     - _Horizon_Distance: 5
     - _Intersection_Foam_Blend: 1
@@ -58,21 +72,35 @@ Material:
     - _Intersection_Foam_Fade: 1
     - _Intersection_Foam_Speed: 0.131
     - _Intersection_Foam_Tiling: 50
+    - _Lighting_Hardness: 0
+    - _Lighting_Smoothness: 1
+    - _Normal_Strength: 0
+    - _Normals_Scale: 0
+    - _Normals_Speed: 0
     - _Posterize_Steps: 0
     - _QueueControl: 1
     - _QueueOffset: 0
+    - _ReceiveShadows: 1
     - _Refraction_Scale: 0.03
     - _Refraction_Speed: 0.01
     - _Refraction_Strength: 0.003
     - _Speed: 0
+    - _SrcBlend: 5
+    - _SrcBlendAlpha: 1
+    - _Surface: 1
     - _SurfaceFoamDistortion: 0
     - _Surface_Foam_Color_Blend: 0
     - _Surface_Foam_Direction: 0.413
     - _Surface_Foam_Distortion: 0.94
     - _Surface_Foam_Speed: 0
-    - _Surface_Foam_Tiling: 20
+    - _Surface_Foam_Tiling: 15
     - _Tiling: 0
+    - _WorkflowMode: 1
+    - _ZTest: 4
+    - _ZWrite: 0
+    - _ZWriteControl: 0
     m_Colors:
+    - White: {r: 1, g: 1, b: 1, a: 1}
     - _Base: {r: 0, g: 0, b: 0, a: 0}
     - _Deep_Color: {r: 0.019607844, g: 0.3019608, b: 0.3882353, a: 1}
     - _Foam_Color: {r: 0, g: 0, b: 0, a: 0}
@@ -81,11 +109,13 @@ Material:
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Overlay: {r: 0, g: 0, b: 0, a: 0}
     - _Shallow_Color: {r: 0.32941177, g: 0.80784315, b: 0.8980392, a: 1}
-    - _Surface_Foam_Color: {r: 1, g: 1, b: 1, a: 0.019607844}
+    - _Specular_Color: {r: 1, g: 1, b: 1, a: 0.3529412}
+    - _Surface_Foam_Color: {r: 1, g: 1, b: 1, a: 0.011764706}
     - _Surface_Foam_Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Surface_Foam_Overlay: {r: 0, g: 0, b: 0, a: 0}
     - _Surface_Foam_UV: {r: 0, g: 0, b: 0, a: 0}
     - _UV: {r: 0, g: 0, b: 0, a: 0}
+    - _Vector4: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &6435745380530265774
