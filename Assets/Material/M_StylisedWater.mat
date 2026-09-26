@@ -112,7 +112,7 @@ Material:
     - _Intersection_Foam_Color: {r: 1, g: 1, b: 1, a: 1}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Overlay: {r: 0, g: 0, b: 0, a: 0}
-    - _Shallow_Color: {r: 0.29737747, g: 0.5143065, b: 0.5283019, a: 0}
+    - _Shallow_Color: {r: 0.24999994, g: 0.5, b: 0.5, a: 0}
     - _Specular_Color: {r: 0.575, g: 0.83860755, b: 1, a: 0.18431373}
     - _Surface_Foam_Color: {r: 1, g: 1, b: 1, a: 0.011764706}
     - _Surface_Foam_Offset: {r: 0, g: 0, b: 0, a: 0}
