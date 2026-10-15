@@ -38,6 +38,6 @@ Material:
     m_Ints: []
     m_Floats: []
     m_Colors:
-    - _Pixel_Density: {r: 480, g: 270, b: 0, a: 0}
+    - _Pixel_Density: {r: 320, g: 180, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
